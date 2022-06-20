@@ -1,0 +1,21 @@
+body {
+    background-color: powderblue;
+}
+
+hr{
+    background-color: none;
+    border-color:grey;
+    border-style: dotted none none none ;
+   border-width: 5px;
+  
+   width: 15%;
+}
+
+img{
+    height: 3cm;
+    width: 3cm;
+}
+
+#contactId{
+    background-color: aqua;
+}
