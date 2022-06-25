@@ -12,10 +12,10 @@ hr{
 }
 
 img{
+    border-radius: 50%;
     height: 3cm;
     width: 3cm;
 }
 
-#contactId{
-    background-color: aqua;
-}
+
+
