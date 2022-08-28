@@ -104,13 +104,15 @@ img {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    margin: 1rem 0rem;
+    /* margin: 1rem 0rem; */
 }
 
 .primary-link{
     background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    margin: 0.5rem;
 }
 
 .sec-link{
@@ -118,7 +120,7 @@ img {
     /* font-weight: bold; */
     border-radius: 0.5rem;
     border: 1px solid black;
-    margin: 1rem;
+    margin: 0.5rem;
     
 }
 
