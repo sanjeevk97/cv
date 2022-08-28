@@ -2,9 +2,9 @@
 
 
 :root{
-    --primary-color : #059669
-    ;
-    --section-nth : #475569 ;
+    --primary-color : #059669;
+    --section-nth-odd :#64748b;
+    --section-nth-even : #475569 ;
 }
 body{
     font-family: 'Open Sans',sans-serif;
@@ -16,6 +16,14 @@ body{
 
 hr{
     margin: 2rem 0rem;
+}
+
+img {
+    max-width: 40%;
+}
+
+.image{
+    margin-top: 1rem;
 }
 
 /* container */
@@ -31,8 +39,9 @@ hr{
 
 .container-center{
     text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+    margin:  auto;
 
 
 }
@@ -43,8 +52,10 @@ hr{
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
+    
     border-bottom-left-radius:  1rem;
     border-bottom-right-radius: 1rem;
+    position: sticky;
 
 }
 
@@ -63,8 +74,9 @@ hr{
 }
 
 .navigation .link-active{
-    font-size: 1.1rem;
-    /* color: blue; */
+    /* font-size: 1.1rem; */
+    font-weight: bold;
+    color: black;
 
 }
 
@@ -76,7 +88,8 @@ hr{
 }
 
 .hero .hero-img{
-    max-width: 350px;
+    max-width: 80%;
+    width: 500px;
     display: block;
     margin:  auto;
 }
@@ -88,6 +101,7 @@ hr{
 
 /* *links* */
 .link{
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
     margin: 1rem 0rem;
@@ -101,12 +115,15 @@ hr{
 
 .sec-link{
     color: black;
-    font-weight: bold;
+    /* font-weight: bold; */
     border-radius: 0.5rem;
     border: 1px solid black;
+    margin: 1rem;
+    
 }
 
-/* *list* */
+/* *list* */ 
+
 
 .list-non-bullet{
     list-style: none;
@@ -121,24 +138,39 @@ hr{
 
 /* section */
 
-.section.white{
-    /* text-align: center; */
-    background-color: #64748b;
-    /* color: black; */
-    padding: 2rem;
-    /* margin: 2rem 0rem; */
-    /* border-radius: 0.5rem; */
-
+.section {
+    background-color:  #64748b ;
+    
+   
+    padding: 2rem ;
+ 
+  
 
 }
 
-.section.ow{
-    background-color: var(--section-nth);
+.section h3{
+    color: black;
+    font-weight: bold;
+}
+
+.section a{
+    padding-top: 0.5rem;
+}
+
+.section.off-slate{
+    background-color: var(--section-nth-even);
     padding: 2rem;
     /* margin: 2rem 0rem; */
     /* text-align: center; */
     
 }
+
+.imgProjects {
+    border-radius: 20px;
+    border: 2px solid #1e3a8a;
+}
+
+
 
 .footer{
     background-color: var(--primary-color);
@@ -156,4 +188,9 @@ hr{
     padding-inline-start: 0px;
 }
 
+
+
+
+  
+  
 
