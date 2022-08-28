@@ -38,11 +38,13 @@ img {
 }
 
 .container-center{
-    text-align: center;
+    /* text-align: center;
     max-width: 900px;
     width: 100%;
-    margin:  auto;
-
+    margin:  auto; */
+    max-width: 600px;
+    margin:auto;
+    text-align: center;
 
 }
 
@@ -154,10 +156,10 @@ img {
     color: black;
     font-weight: bold;
 }
-
+/* 
 .section a{
     padding-top: 0.5rem;
-}
+} */
 
 .section.off-slate{
     background-color: var(--section-nth-even);
